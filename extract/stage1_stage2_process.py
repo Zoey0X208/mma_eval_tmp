@@ -314,7 +314,7 @@ def process_all_old_extracted(
 if __name__ == "__main__":
     # 示例：处理单个文件
     process_old_extracted_file(
-        json_path="./test_data/old_extracted/P2024070264CN1.json",
+        json_path="./test_data/old_extracted/P2023110253CN1.json",
         output_dir="./tmp/stage_results",
         llm_type="gpt-4o",
         max_workers=6
